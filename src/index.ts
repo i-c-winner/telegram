@@ -4,7 +4,7 @@ import { Markup, Telegraf } from 'telegraf';
 dotenv.config();
 
 const token = process.env.TELEGRAM_BOT_TOKEN;
-const externalUrl = process.env.EXTERNAL_BROWSER_URL ?? 'https://telegramenter-production.up.railway.app';
+const externalUrl = process.env.EXTERNAL_BROWSER_URL ?? 'https://www.instagram.com/dmitriybelousov5?igsh=MW5lNWY0M2dqd3htYQ==';
 
 if (!token) {
   throw new Error('TELEGRAM_BOT_TOKEN is not configured');
